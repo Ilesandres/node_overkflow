@@ -26,3 +26,6 @@ jobs:
           
         - name: correr aplicacion
           run: npm start
+
+        - name: analizis de calidad de codigo
+          run: npm run lint
